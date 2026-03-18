@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+
+# Virtual environments
+venv/
+.env
+
+# PyTorch model / artifacts
+*.pth
+*.pt
+*.pkl
+
+# Dataset/demo outputs
+out_demo/
+
+# Large mesh / texture files (keep locally but do not commit)
+*.glb
+*.obj
+*.ply
+
+# IDEA / VSCode
+.vscode/
+.idea/
+
+# Misc
+*.log
